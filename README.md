@@ -8,7 +8,7 @@ accessible) synchronized without using `git-subtree` or `git-submodules`.
 ## Installation
 
 ```
-$ got get -u github.com/tjk/git-extern-sync
+$ go get -u github.com/tjk/git-extern-sync
 ```
 
 This will download the source into
