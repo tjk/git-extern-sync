@@ -14,7 +14,7 @@ const Name string = "git-extern-sync"
 
 func main() {
 	if err := run(); err != nil {
-		fmt.Fprintf(os.Stderr, "error: %v\n", err)
+		fmt.Fprintf(os.Stderr, "%s: error: %v\n", Name, err)
 		os.Exit(1)
 	}
 }
@@ -65,7 +65,7 @@ func run() (err error) {
 			if _, err = file.Write(body); err != nil {
 				return
 			}
-			fmt.Printf("%s: synchronized %s\n", Name, fpath)
+			fmt.Printf("%s: synchronized: %s\n", Name, fpath)
 			uri = nil
 		default:
 			if res := regex.FindStringSubmatch(line); res != nil {
