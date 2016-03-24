@@ -1,7 +1,5 @@
 # git-extern-sync
 
-**Warning: this is alpha software and should not be used yet!**
-
 This little `go` package lets you keep "external" files (for now, HTTP
 accessible) synchronized without using `git-subtree` or `git-submodules`.
 
