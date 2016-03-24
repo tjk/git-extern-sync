@@ -43,5 +43,6 @@ definitions.
 ## TODO
 
 - [ ] support shortcut, ie. `github.com/<name>/<repo>@<ref>` ?
-- [ ] quiet flag so no ./gitignore found is silent?
-- [ ] add tests
+- [ ] quiet flag so ".gitignore not found" is silent?
+- [x] ~~add tests~~
+- [ ] related to quiet, configure when to prompt?
