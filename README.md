@@ -32,9 +32,8 @@ Given the following `.gitignore`:
 file-to-keep-synced
 ```
 
-Calling `git-extern-sync` alongside it will ensure the the untracked
-file named `./file-to-keep-synced` in the repo matches the one at the
-external URL.
+Calling `git-extern-sync` alongside it will ensure the untracked file
+at `./file-to-keep-synced` in the repo matches the one at the URL.
 
 ## Why?
 
