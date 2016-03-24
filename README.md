@@ -45,3 +45,4 @@ definitions.
 
 - [ ] support shortcut, ie. `github.com/<name>/<repo>@<ref>` ?
 - [ ] quiet flag so no ./gitignore found is silent?
+- [ ] add tests
