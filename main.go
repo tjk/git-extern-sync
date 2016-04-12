@@ -55,7 +55,7 @@ func gitExternSyncFromBlob(blob []byte) (err error) {
 		line := scanner.Text()
 		switch {
 		case uri != nil:
-			if err = installUri(*uri, wd, line, false); err != nil {
+			if err = installUri(*uri, wd, line); err != nil {
 				return
 			}
 			uri = nil
